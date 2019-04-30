@@ -11,7 +11,7 @@ import { gearData } from '../data/gearData';
 @observer
 export class MasterPage extends React.Component {
     @observable marketDataMessage: boolean = false;
-    @observable matsList:any = [];
+    @observable matsList: any = [];
 
     constructor(props: any) {
         super(props);
@@ -19,6 +19,7 @@ export class MasterPage extends React.Component {
         //this.saveMarketData();
         //this.saveGearData()
         //this.matsChecker();
+        //this.addGear();
     }
 
     saveMarketData = () => {
@@ -34,9 +35,9 @@ export class MasterPage extends React.Component {
         })
     }
     matsChecker = () => {
-        db.collection("mats").onSnapshot((querySnapshot)=>{
-            let mats:any = [];
-            querySnapshot.forEach((doc)=>{
+        db.collection("mats").onSnapshot((querySnapshot) => {
+            let mats: any = [];
+            querySnapshot.forEach((doc) => {
                 mats.push({
                     amount: 0,
                     id: doc.id,
@@ -44,7 +45,7 @@ export class MasterPage extends React.Component {
                 })
             })
             this.matsList = mats;
-            
+
         })
         db.collection("users").onSnapshot((querySnapshot) => {
             querySnapshot.forEach((doc) => {
@@ -53,6 +54,36 @@ export class MasterPage extends React.Component {
                 }, { merge: true })
             })
         })
+    }
+    addGear = () => {
+        db.collection("users").doc("GSkIH1aMDFUREmtVvoSxFWaEBlq1").set({
+            gears: (
+                [
+                    {
+                        id: "BeltHorizon",
+                        stages: [
+                            {
+                                name: "Stage - 1"
+                            },
+                            {
+                                name: "Stage - 3"
+                            }
+                        ]
+                    },
+                    {
+                        id: "WeaponGrandCelestial",
+                        stages: [
+                            {
+                                name: "Stage - 3"
+                            },
+                            {
+                                name: "Stage - 6"
+                            }
+                        ]
+                    }
+                ]
+            )
+        }, { merge: true })
     }
 
     render() {

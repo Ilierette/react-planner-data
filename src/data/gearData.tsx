@@ -3,6 +3,7 @@ export const gearData = [
         id: "BeltHorizon",
         tier: "PVE",
         type: "belt",
+        name: "Horizon",
         isActive: true,
         isOutDated: false,
         stages: [
@@ -1744,7 +1745,7 @@ export const gearData = [
         ]
     },
     {
-        id:"WeaponRaven",
+        id:"Raven",
         name: "Raven", //and pre-raven
         tier: "VT",
         type: "weapon",

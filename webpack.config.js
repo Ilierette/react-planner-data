@@ -80,7 +80,7 @@ module.exports = function (env) {
             host: 'localhost',
             port: 4000,
             historyApiFallback: true,
-            open: 'http://localhost:5000'
+            open: 'http://localhost:4000'
         }
     }
 }

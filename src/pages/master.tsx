@@ -4,13 +4,10 @@ import { observable } from 'mobx';
 import { db } from './config';
 import { marketData } from '../data/market';
 import { gearData } from '../data/gearData';
-
-//Market
-
+import { raid } from '../data/raid';
 
 @observer
 export class MasterPage extends React.Component {
-    @observable marketDataMessage: boolean = false;
     @observable matsList: any = [];
 
     constructor(props: any) {
@@ -20,13 +17,18 @@ export class MasterPage extends React.Component {
         //this.saveGearData()
         //this.matsChecker();
         //this.addGear();
+        //this.addRaidData();
+    }
+
+    addRaidData = () => {
+        raid.map((data:any)=>{
+            db.collection("raids").doc(data.id).set(data)
+        })
     }
 
     saveMarketData = () => {
         marketData.map((data: any) => {
-            db.collection("mats").doc(data.id).set(data).then(() => {
-                this.marketDataMessage = true
-            });
+            db.collection("mats").doc(data.id).set(data)
         })
     }
     saveGearData = () => {
@@ -89,11 +91,7 @@ export class MasterPage extends React.Component {
     render() {
         return (
             <div>
-                Data saved:
-                {
-                    this.marketDataMessage &&
-                    <div> Market data </div>
-                }
+                Data saved!
             </div>
         )
     }

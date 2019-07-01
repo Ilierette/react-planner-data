@@ -15,7 +15,6 @@ export class MasterPage extends React.Component {
 
         //this.saveMarketData();
         //this.saveGearData()
-        //this.matsChecker();
         //this.addGear();
         //this.addRaidData();
     }

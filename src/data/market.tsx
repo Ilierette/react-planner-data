@@ -5,6 +5,7 @@ export const marketData = [
         id: "elysian",
         tier: "common",
         name: "Elysian Orb",
+        shortName: "Elysian",
         isTradeable: true,
     },
     {
@@ -13,6 +14,7 @@ export const marketData = [
         id: "sacred",
         tier: "common",
         name: "Sacred Orb",
+        shortName: "Sacred",
         isTradeable: true,
     },
     {
@@ -21,6 +23,7 @@ export const marketData = [
         id: "moonstone",
         tier: "common",
         name: "Moonstone",
+        shortName: "Moonstone",
         isTradeable: true,
     },
     {
@@ -29,6 +32,7 @@ export const marketData = [
         id: "soulstone",
         tier: "common",
         name: "Soulstone",
+        shortName: "Soulstone",
         isTradeable: true,
     },
     {
@@ -37,6 +41,7 @@ export const marketData = [
         id: "petPod",
         tier: "common",
         name: "Pet Pod",
+        shortName: "Pet Pack",
         isTradeable: true,
     },
     {
@@ -45,6 +50,7 @@ export const marketData = [
         id: "sacredOil",
         tier: "common",
         name: "Sacred Oil",
+        shortName: "Oil",
         isTradeable: true,
     },
     {
@@ -53,6 +59,7 @@ export const marketData = [
         id: "PTS",
         tier: "common",
         name: "Premium Transformation Stone",
+        shortName: "PTS",
         isTradeable: true,
     },
     {
@@ -61,6 +68,7 @@ export const marketData = [
         id: "TS",
         tier: "common",
         name: "Transformation Stone",
+        shortName: "TS",
         isTradeable: true,
     },
     {
@@ -69,6 +77,7 @@ export const marketData = [
         id: "empyrean",
         tier: "common",
         name: "Empyrean Spirit Stone",
+        shortName: "Empyrean Stone",
         isTradeable: true,
     },
     {
@@ -77,6 +86,7 @@ export const marketData = [
         id: "jewel",
         tier: "common",
         name: "Legendary Jewel",
+        shortName: "Jewel",
         price: 20,
         isTradeable: true,
     },
@@ -86,6 +96,7 @@ export const marketData = [
         id: "element",
         tier: "common",
         name: "Legendary Element",
+        shortName: "Element",
         price: 20,
         isTradeable: true,
     },
@@ -95,6 +106,7 @@ export const marketData = [
         id: "bCrux",
         tier: "other",
         name: "Blue Crux",
+        shortName: "Blue Crux",
         isTradeable: false,
     },
     {
@@ -103,6 +115,7 @@ export const marketData = [
         id: "rCrux",
         tier: "other",
         name: "Red Crux",
+        shortName: "Red Crux",
         isTradeable: false,
     },
     {
@@ -111,6 +124,7 @@ export const marketData = [
         id: "pristine",
         tier: "other",
         name: "Pristine Oil",
+        shortName: "Pristine",
         isTradeable: false,
     },
     // BT
@@ -120,6 +134,7 @@ export const marketData = [
         id: "ravenFeather",
         tier: "BT",
         name: "Raven Feather",
+        shortName: "Raven Feather",
         isTradeable: false,
     },
     {
@@ -128,6 +143,7 @@ export const marketData = [
         id: "ravenHeart",
         tier: "BT",
         name: "Raven Heart",
+        shortName: "Raven Heart",
         isTradeable: false,
     },
     {
@@ -136,6 +152,7 @@ export const marketData = [
         id: "blackstone",
         tier: "BT",
         name: "Blackstone",
+        shortName: "Blackstone",
         isTradeable: false,
     },
     // VT
@@ -145,6 +162,7 @@ export const marketData = [
         id: "hqWings",
         tier: "VT",
         name: "Hive Queen Wings",
+        shortName: "Hive Queen Wings",
         isTradeable: false,
     },
     {
@@ -153,6 +171,7 @@ export const marketData = [
         id: "hqHearts",
         tier: "VT",
         name: "Hive Queen Heart",
+        shortName: "Hive Queen Heart",
         isTradeable: false,
     },
     {
@@ -161,6 +180,7 @@ export const marketData = [
         id: "dgs",
         tier: "VT",
         name: "Divine Grace Stone",
+        shortName: "Divine Stone",
         isTradeable: false,
     },
     {
@@ -169,6 +189,7 @@ export const marketData = [
         id: "silverScale",
         tier: "VT",
         name: "Silver Scale",
+        shortName: "Silver Scale",
         isTradeable: false,
     },
     // TT
@@ -178,6 +199,7 @@ export const marketData = [
         id: "celestialWings",
         tier: "TT",
         name: "Celestial Wing",
+        shortName: "Celestial Wing",
         isTradeable: false,
     },
     {
@@ -186,6 +208,7 @@ export const marketData = [
         id: "celestialSteel",
         tier: "TT",
         name: "Celestial Steel",
+        shortName: "Celestial Steel",
         isTradeable: false,
     },
     {
@@ -194,6 +217,7 @@ export const marketData = [
         id: "onyxScale",
         tier: "TT",
         name: "Onyx Scale",
+        shortName: "Onyx Scale",
         isTradeable: false,
     },
     // PVP
@@ -203,6 +227,7 @@ export const marketData = [
         id: "bloodstone",
         tier: "PVP",
         name: "Bloodstone",
+        shortName: "Bloodstone",
         isTradeable: false,
     },
     {
@@ -211,6 +236,7 @@ export const marketData = [
         id: "incrinerator",
         tier: "PVP",
         name: "Incinerator Stone",
+        shortName: "Incinerator Stone",
         isTradeable: false,
     },
     {
@@ -219,6 +245,7 @@ export const marketData = [
         id: "vegeneance",
         tier: "PVP",
         name: "Vegenance Orb",
+        shortName: "Vegenance",
         isTradeable: false,
     }
 ]

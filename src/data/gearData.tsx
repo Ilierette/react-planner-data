@@ -5,7 +5,7 @@ export const gearData = [
         type: "belt",
         name: "Horizon",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Stage - 1",
@@ -80,7 +80,7 @@ export const gearData = [
         tier: "PVP",
         type: "belt",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Stage - 1",
@@ -155,7 +155,7 @@ export const gearData = [
         tier: "VT",
         type: "bracelet",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Stage - 1",
@@ -203,7 +203,7 @@ export const gearData = [
         tier: "BT",
         type: "bracelet",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Stage - 3",
@@ -251,7 +251,7 @@ export const gearData = [
         tier: "PVP",
         type: "bracelet",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Stage - 1",
@@ -326,7 +326,7 @@ export const gearData = [
         tier: "TT",
         type: "earring",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Stage - 1",
@@ -406,7 +406,7 @@ export const gearData = [
         tier: "BT",
         type: "earring",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Stage - 3",
@@ -481,7 +481,7 @@ export const gearData = [
         tier: "PVP",
         type: "earring",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Stage - 1",
@@ -556,7 +556,7 @@ export const gearData = [
         tier: "PVE",
         type: "gloves",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Stage - 1",
@@ -633,7 +633,7 @@ export const gearData = [
         tier: "PVP",
         type: "gloves",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Stage - 1",
@@ -708,7 +708,7 @@ export const gearData = [
         tier: "other",
         type: "heart",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "True Hongmoon",
@@ -780,7 +780,7 @@ export const gearData = [
         tier: "other",
         type: "mysticBadge",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Awakened - 1",
@@ -846,7 +846,7 @@ export const gearData = [
         tier: "VT",
         type: "necklace",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Stage - 3",
@@ -921,7 +921,7 @@ export const gearData = [
         tier: "PVE",
         type: "necklace",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Stage - 1",
@@ -995,7 +995,7 @@ export const gearData = [
         tier: "PVP",
         type: "necklace",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Stage - 1",
@@ -1069,7 +1069,7 @@ export const gearData = [
         tier: "other",
         type: "pet",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Unleashed Hongmoon",
@@ -1194,7 +1194,7 @@ export const gearData = [
         tier: "TT",
         type: "ring",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Stage - 1",
@@ -1274,7 +1274,7 @@ export const gearData = [
         tier: "BT",
         type: "ring",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Stage - 3",
@@ -1348,7 +1348,7 @@ export const gearData = [
         tier: "PVP",
         type: "ring",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Stage - 1",
@@ -1423,7 +1423,7 @@ export const gearData = [
         tier: "other",
         type: "soul",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "True Acending",
@@ -1472,7 +1472,7 @@ export const gearData = [
         tier: "other",
         type: "soulBadge",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Awakened - 1",
@@ -1538,7 +1538,7 @@ export const gearData = [
         tier: "TT",
         type: "weapon",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Stage - 3",
@@ -1643,7 +1643,7 @@ export const gearData = [
         tier: "VT",
         type: "weapon",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Stage - 3",
@@ -1750,7 +1750,7 @@ export const gearData = [
         tier: "VT",
         type: "weapon",
         isActive: true,
-        isOutDated: false,
+        isOutdated: false,
         stages: [
             {
                 name: "Stage - 6",

@@ -21,7 +21,7 @@ export class MasterPage extends React.Component {
     }
 
     addRaidData = () => {
-        raid.map((data:any)=>{
+        raid.map((data: any) => {
             db.collection("raids").doc(data.id).set(data)
         })
     }
@@ -33,7 +33,21 @@ export class MasterPage extends React.Component {
     }
     saveGearData = () => {
         gearData.map((data: any) => {
-            db.collection("gears").doc(data.id).set(data)
+            db.collection("gears").doc(data.id).set({
+                id: data.id,
+                tier: data.tier,
+                type: data.type,
+                name: data.name,
+                isActive: data.isActive,
+                isOutdated: data.isOutdated
+            })
+            data.stages.map((stage:any)=>{
+                const id = stage.name.replace(/\s/g, '')
+                db.collection("gears").doc(data.id).collection("stages").doc(id).set({
+                    ...stage,
+                    id: id
+                })
+            })
         })
     }
     matsChecker = () => {
